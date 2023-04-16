@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    /* background-color: royalblue; */
+   background-image: url("https://user-images.githubusercontent.com/6901805/58038897-167f0280-7ae6-11e9-94eb-88e880a25f0f.gif");
+    background-size:cover;
+    background-position: center;
+    
+}
+#quote-box {
+    background: rgb(255, 255, 255);
+    font-family: 'Nunito', sans-serif;
+    width: 40rem;
+    margin: 10rem;
+    padding: 3rem;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+#text{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+#author{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.3rem;
+}
+#buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.social-media > a img {
+    
+    position: relative;
+    top: 10px;
+    align-items: center;
+    width: 3rem;
+}
+.social-media >a:hover {
+    opacity: .9;
+}
+.social-media > a {
+    margin-top: 10px;
+    margin-right: .5rem;
+    border-radius: 3px;
+    background: #ffffff;
+    padding: .6rem .5rem;
+    cursor: pointer;
+}
+#new-quote{
+    background: #000000;
+    border: none;
+    color: white;
+    padding: .7rem 1rem;
+    font-size: .9rem;
+    font-weight: bold;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+}
+#new-quote:hover{
+    opacity: .9;
+
+}
